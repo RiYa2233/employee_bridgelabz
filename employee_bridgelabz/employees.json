@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Rithvik Sharma",
+    "department": "IT",
+    "basicSalary": 50000
+  },
+  {
+    "id" : 2,
+    "name" : "Priya Verma",
+    "department" : "IT",
+    "basicSalary" : 45000
+  },
+  {
+     "id": 3,
+    "name": "Muskii Sharma",
+    "department": "CSE",
+    "basicSalary": 70000
+  },
+  {
+     "id": 4,
+    "name": "Akanksha Varshney",
+    "department": "CSE",
+    "basicSalary": 90000
+  },
+  {
+     "id": 5,
+    "name": "Riya Sen",
+    "department": "CSE",
+    "basicSalary": 95000
+  },
+  {
+     "id": 6,
+    "name": "Shriyan Gupta",
+    "department": "ECE",
+    "basicSalary": 80000
+  },
+  {
+     "id": 7,
+    "name": "Ayaan Singh",
+    "department": "IT",
+    "basicSalary": 55000
+  }
+]
