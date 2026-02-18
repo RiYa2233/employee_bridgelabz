@@ -1,0 +1,8 @@
+<h2>Edit Employee</h2>
+
+<form action="/update/<%= employee.id %>" method="POST">
+  <input name="name" value="<%= employee.name %>">
+  <input name="department" value="<%= employee.department %>">
+  <input name="basicSalary" value="<%= employee.basicSalary %>">
+  <button>Update</button>
+</form>

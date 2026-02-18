@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Employee Dashboard</title>
+    <title>Employee Payroll </title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <h1>Employee Payroll Dashboard</h1>
+
+<h2>Add Employee</h2>
+
+<form action ="/add" method="POST">
+    <input name="name" placeholder="Name" require>
+    <input name="department" placeholder="Department" require>
+    <input name="basicSalary" placeholder="Salary" require>
+    <button> Add Employee</button>
+</form>
 
 <table>
     <tr>
@@ -31,6 +40,10 @@
             <td>₹ <%= emp.basicSalary %></td>
             <td>₹ <%= tax %></td>
             <td>₹ <%= netSalary %></td>
+            <td>
+                <a href="/edit/<%=emp.id%>">Edit</a>
+                <a href="/delete/<%=emp.id%>">Delete</a>
+            </td>
         </tr>
     <% }) %>
 </table>
